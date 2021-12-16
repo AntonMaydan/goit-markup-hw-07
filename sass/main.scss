@@ -1,5 +1,15 @@
 @import './utils/var';
-@import './base/reset.scss';
+@import './utils/hidden';
+@import './base/reset';
 @import './components/container';
 @import './components/btn';
+@import './components/modal';
 @import './layout/header';
+@import './layout/hero';
+@import './layout/skills';
+@import './layout/work';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/buttons';
+@import './layout/project';
