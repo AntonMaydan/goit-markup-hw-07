@@ -62,7 +62,26 @@
   }
 }
 
-.footer-text {
+// СОЦ СЕТИ
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  margin-top: 19px;
+}
+
+.footer-social__item {
+  width: 44px;
+  height: 44px;
+  display: block;
+  border-radius: 50%;
+}
+
+.footer-social__item + .footer-social__item {
+  margin-left: 10px;
+}
+
+.footer__text {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -72,29 +91,12 @@
   color: #ffffff;
 }
 
-.footer-social {
-  display: flex;
-  justify-content: center;
-  margin-top: 19px;
-}
-
-.footer-social-item {
-  width: 44px;
-  height: 44px;
-  display: block;
-  border-radius: 50%;
-}
-
-.footer-social-item + .footer-social-item {
-  margin-left: 10px;
-}
-
-.footer-social-icon {
+.footer-social__icon {
   fill: #ffffff;
 }
 
 .footer {
-  .footer-social-link {
+  .footer-social__link {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -108,21 +110,32 @@
     &:hover {
       background-color: #2196f3;
     }
-    &:focus .team-social-icon,
-    &:hover .team-social-icon {
+    &:focus .footer-social__icon,
+    &:hover .footer-social__icon {
       fill: #fff;
     }
   }
 }
 
-.online {
+// ONLINE
+.online__subscription {
   margin-left: 23px;
 }
 
-.online-form {
+.online__text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.online__form {
   margin-top: 20px;
 }
-.online-input {
+.online__input {
   position: absolute;
   width: 358px;
   height: 50px;
@@ -160,7 +173,7 @@
   }
 }
 
-.btn-online {
+.btn__online {
   position: absolute;
   width: 200px;
   height: 50px;
@@ -178,10 +191,10 @@
   justify-content: center;
   border: none;
 }
-.online-form-wrap {
-  display: flex;
-}
-
-.footer-online-icon {
+.online__icon {
   margin-left: 10px;
 }
+
+// .online-form-wrap {
+//   display: flex;
+// }
