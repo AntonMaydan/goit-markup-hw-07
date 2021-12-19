@@ -13,14 +13,11 @@
   margin-right: auto;
 }
 
-.hero-title {
-  width: 696px;
-}
-
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  width: 696px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -28,7 +25,7 @@
   margin: 0 auto;
 }
 
-.hero-btn {
+.hero__btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
