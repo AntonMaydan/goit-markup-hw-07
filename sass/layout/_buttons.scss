@@ -3,12 +3,19 @@
   padding-top: 94px;
 }
 
-.list-buttons {
+.buttons__list {
   display: flex;
   margin-left: 280px;
 }
 
-.buttons-item:not(:last-child) {
+.list-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 280px;
+}
+
+.list-buttons__item:not(:last-child) {
   margin-right: 8px;
 }
 

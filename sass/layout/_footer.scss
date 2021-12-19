@@ -3,14 +3,15 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-list {
+.footer__list {
   display: flex;
 }
+
 .footer-item:not(:last-child) {
   margin-right: 70px;
 }
 
-.footer-logo {
+.footer-logo__text {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -19,16 +20,11 @@
   color: #2196f3;
 }
 
-.footer-logo-two {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+.footer-logo__text--span {
   color: #ffffff;
 }
 
-.footer-address {
+.footer-contacts__address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -41,11 +37,16 @@
 }
 
 .footer {
-  .footer-contact {
+  .footer-contacts__contact {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    padding-top: 9px;
+    transition: color 250ms linear;
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
   }
 }
 
@@ -53,14 +54,7 @@
   padding-top: 20px;
 }
 
-.footer-contact {
-  padding-top: 9px;
-  transition: color 250ms linear;
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
-  }
-}
+
 
 // СОЦ СЕТИ
 
@@ -191,10 +185,11 @@
   justify-content: center;
   border: none;
 }
+
 .online__icon {
   margin-left: 10px;
 }
 
-// .online-form-wrap {
-//   display: flex;
-// }
+.online-form-wrap {
+  display: flex;
+}
