@@ -1,14 +1,14 @@
-.list-buttons {
-  display: flex;
-  margin-left: 280px;
-}
-
 .buttons {
   padding-bottom: 34px;
   padding-top: 94px;
 }
 
-.buttons-item:not(:last-child) {
+.buttons__list {
+  display: flex;
+  margin-left: 280px;
+}
+
+.buttons__item:not(:last-child) {
   margin-right: 8px;
 }
 

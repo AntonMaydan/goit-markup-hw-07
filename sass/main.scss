@@ -1,9 +1,13 @@
 @import './utils/var';
 @import './utils/hidden';
+@import './utils/placeholders';
+
 @import './base/reset';
+
 @import './components/container';
 @import './components/btn';
 @import './components/modal';
+
 @import './layout/header';
 @import './layout/hero';
 @import './layout/skills';

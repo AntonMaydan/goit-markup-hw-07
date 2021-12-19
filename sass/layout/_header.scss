@@ -1,3 +1,17 @@
+.header {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
   font-family: Raleway;
   font-weight: 700;
@@ -8,43 +22,6 @@
   margin-right: 92px;
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-}
-
-.header {
-  border-bottom: 1px solid #eeeeee;
-}
-
-.navigation {
-  display: flex;
-  align-items: center;
-}
-
-.header-connect {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
-
-.header-social-icon {
-  fill: #757575;
-  margin-right: 10px;
-  .header-contact:focus &,
-  .header-contact:hover & {
-    fill: #2196f3;
-  }
-}
-
-.header-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.connect-item:not(:last-child) {
-  margin-right: 50px;
-}
-
 .header-logo-two {
   font-family: Raleway;
   font-weight: 700;
@@ -52,6 +29,14 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-link {
@@ -97,8 +82,23 @@
   }
 }
 
-.header-list {
+.header-connect {
   display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-social-icon {
+  fill: #757575;
+  margin-right: 10px;
+  .header-contact:focus &,
+  .header-contact:hover & {
+    fill: #2196f3;
+  }
+}
+
+.connect-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-contact {
