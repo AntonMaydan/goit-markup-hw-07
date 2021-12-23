@@ -25,7 +25,7 @@
   margin-right: 92px;
 }
 
-.logo__text--span {
+.logo__span {
   color: #000000;
 }
 
@@ -93,7 +93,7 @@
   margin-right: 50px;
 }
 
-.connect__contact {
+.connect-item__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
@@ -106,11 +106,11 @@
   }
 }
 
-.connect__icon {
+.connect-item__icon {
   fill: #757575;
   margin-right: 10px;
-  .connect__contact:focus &,
-  .connect__contact:hover & {
+  .connect-item__link:focus &,
+  .connect-item__link:hover & {
     fill: #2196f3;
   }
 }
